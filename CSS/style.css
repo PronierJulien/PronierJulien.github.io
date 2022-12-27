@@ -30,7 +30,6 @@ a {
 }
 
 
-
 header {
     margin-left: 20%;
     top: 0;
@@ -160,4 +159,6 @@ footer {
 #centrer {
     display: flex;
     justify-content: space-evenly;
+    margin: 1%;
+    font-size: 2rem;
 }
