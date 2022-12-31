@@ -97,6 +97,7 @@ p {
 }
 
 footer {
+    margin-top: 100px;
     display: flex;
     bottom:0;
     background-color: black;
@@ -150,13 +151,17 @@ footer {
     margin-right: 38%;
 }
 
+.bash {
+    margin-right: 32%;
+}
+
 .accimg {
     width: 100%;
     border-radius: 30px;
 }
 
-
 #centrer {
+    margin-top: 2%;
     display: flex;
     justify-content: space-evenly;
     margin: 1%;
