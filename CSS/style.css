@@ -91,9 +91,10 @@ p {
     margin-left: 15%;
     margin-right: 15%;
     padding: 10px;
-    border: solid 4px gray;
+    border: solid 4px rgb(87, 87, 87);
     border-radius: 10px;
     font-size: 25px;
+    background-color: rgba(2, 2, 48, 0.671);
 }
 
 footer {
@@ -161,9 +162,10 @@ footer {
 }
 
 #centrer {
-    margin-top: 2%;
     display: flex;
     justify-content: space-evenly;
     margin: 1%;
     font-size: 2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
