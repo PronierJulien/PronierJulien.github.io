@@ -215,3 +215,16 @@ footer {
 div {
     color: #dbdbdb;
 }
+
+.logo {
+    width: 6%;
+    height: 6%;
+}
+
+.flask-logo {
+    padding: 10px;
+    background-color: white !important;
+    border-radius: 20%;
+    height: 100%;
+    width: 8%;
+}
