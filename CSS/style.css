@@ -166,6 +166,14 @@ footer {
     margin-right: 32%;
 }
 
+.pythonflask {
+    margin-right: 20%;
+}
+
+.angular {
+    margin-right: 25%;
+}
+
 .accimg {
     width: 100%;
     border-radius: 30px;
@@ -197,4 +205,12 @@ footer {
     border-radius: 10px;
     font-size: 25px;
     background-color: rgba(2, 2, 48, 0.671);
+}
+
+.renatech {
+    width: -moz-available;
+}
+
+div {
+    color: #dbdbdb;
 }
