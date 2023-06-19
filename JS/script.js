@@ -1,4 +1,17 @@
 
+window.addEventListener('scroll', function() {
+    var divs = document.querySelectorAll('.div-item');
+  
+    for (var i = 0; i < divs.length; i++) {
+      var div = divs[i];
+      var divPosition = div.getBoundingClientRect().top;
+      var screenHeight = window.innerHeight;
+  
+      if (divPosition < screenHeight) {
+        div.classList.add('appear');
+      }
+    }
+  });
 document.addEventListener("DOMContentLoaded", function() {
     console.log(document.getElementById('canvas'))
     const newParticlesPerFrame = 50;
