@@ -236,6 +236,7 @@ div {
     width: 70% !important;
     height: auto !important;
     border-radius: 0% !important;
+    border-radius: 5px !important
 }
 
 button {
