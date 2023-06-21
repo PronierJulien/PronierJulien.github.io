@@ -173,6 +173,10 @@ footer {
     margin-right: 25%;
 }
 
+.kotlin {
+    margin-right: 29%;
+}
+
 .accimg {
     width: 100%;
     border-radius: 30px;
@@ -208,7 +212,7 @@ footer {
 
 
 div {
-    color: #dbdbdb;
+    color: #c9c9c9;
 }
 
 .logo {
@@ -226,4 +230,26 @@ div {
 .renatech {
     width: -moz-available;
     width: -webkit-fill-available;
+}
+
+.mobile {
+    width: 70% !important;
+    height: auto !important;
+    border-radius: 0% !important;
+}
+
+button {
+    font-size: larger;
+    font-style: bold !important;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    height: auto;
 }
