@@ -1,4 +1,7 @@
 console.log("passe")
+
+
+
 selector = 0
 function nextprev(n){
     console.log(selector)
@@ -26,4 +29,18 @@ function nextprev(n){
     }
 }
 document.addEventListener("DOMContentLoaded", function() {
+    nav = navigator.userAgent
+
+    if (nav.indexOf("Firefox")==-1){
+        img = document.getElementsByClassName('m0')
+        console.log(img)
+        img[0].setAttribute("style", "width: 30% !important;")
+        img = document.getElementsByClassName('m1')
+        console.log(img)
+        img[0].setAttribute("style", "width: 30% !important;")
+        img = document.getElementsByClassName('m2')
+        console.log(img)
+        img[0].setAttribute("style", "width: 30% !important;")
+        
+    }
 })
